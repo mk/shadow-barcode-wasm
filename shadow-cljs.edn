@@ -1,4 +1,4 @@
-{:deps true
+{:source-paths ["src"]
  :dev-http {8000 "public"}
  :builds {:browser {:target :browser
                     :modules {:main {:entries [shadow.barcode.main]}}}}
