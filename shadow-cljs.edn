@@ -1,0 +1,5 @@
+{:deps true
+ :dev-http {8000 "public"}
+ :builds {:browser {:target :browser
+                    :modules {:main {:entries [shadow.barcode.main]}}}}
+ :compiler-options {:output-feature-set :es-next}}
